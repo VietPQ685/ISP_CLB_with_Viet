@@ -305,7 +305,7 @@ void startGame() {
     snakeShape[0][0] = headSnake[0];
     snakeShape[0][1] = headSnake[1];
 
-    drawStartSnake(snakeShape);
+    drawStartSnake();
     createFood();
 
     while (checkAlive(snakeShape[0]) && checkSnakeSize()) {
