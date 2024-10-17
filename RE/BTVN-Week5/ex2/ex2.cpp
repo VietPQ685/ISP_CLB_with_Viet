@@ -28,5 +28,8 @@ int main() {
     cin >> processID;
     ListMemoryRegions(processID);
 
+    string ketthuc = "\nPress any character + Enter to exit the program!\n";
+    cout << ketthuc;
+    cin >> ketthuc;
     return 0;
 }
