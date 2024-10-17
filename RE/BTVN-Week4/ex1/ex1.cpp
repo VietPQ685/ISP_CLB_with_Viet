@@ -38,8 +38,9 @@ int main() {
 
     CloseHandle(allProcess); // Đóng handle snapshot sau khi đã sử dụng xong
 
-    string ketthuc = "\nPress any character + Enter to exit the program!\n";
+    string ketthuc = "\nEnter to exit the program!";
     cout << ketthuc;
-    cin >> ketthuc;
+    while (getchar() != '\n');
+    getchar();
     return 0;
 }
